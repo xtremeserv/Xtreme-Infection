@@ -1,0 +1,9 @@
+patch
+{
+	include "materials/models/survivors/survivors_it_shared.vmt"
+	insert
+	{
+	"$basetexture" "models\custom\metrocorp\metro_body_color"
+                "$nodecal" "1"
+	}
+}	
