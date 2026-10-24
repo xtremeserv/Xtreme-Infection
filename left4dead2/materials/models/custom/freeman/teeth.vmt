@@ -1,0 +1,25 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+	$basetexture "models/custom/freeman/gman_teeth_col"
+	$bumpmap "models/custom/freeman/gman_teeth_normal"
+
+	$lightwarptexture "models/survivors/gambler/gambler_head_wrp"
+
+$nodecal 1
+
+	$phong 1
+	$phongfresnelranges "[0.2 0.5 5]"
+	$phongtint "[0.85 0.85 1]"
+	$phongexponent 7
+	$phongboost 1.4
+
+	$nodecal 1
+
+	$ambientocclusion 1
+	$diffuseexp 1.5
+}
+}

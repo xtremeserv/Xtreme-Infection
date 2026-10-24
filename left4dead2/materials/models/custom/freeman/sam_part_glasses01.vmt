@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	$basetexture "models/custom/freeman/sam_part_glasses01_color"
+	$bumpmap "models/custom/freeman/sam_part_glasses01_normal"
+$phong 1
+$phongboost 2
+$phongexponent 2
+$phongtint "[1 1 1]"
+$halflambert 0
+$phongfresnelranges "[.4 .8 30]"
+$ambientocclusion 1
+
+$nodecal 1
+
+$diffuseexp "1.5"
+}

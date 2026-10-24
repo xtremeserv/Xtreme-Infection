@@ -1,0 +1,25 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+	$basetexture "models/custom/freeman/t_hev_legs2_color"
+	$bumpmap "models/custom/freeman/t_hev_legs_normal"
+	$surfaceprop Metalvent
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.25 0.25 0.25]"
+
+$nodecal 1
+
+	$phong 1
+	$phongfresnelranges "[0.4 0.8 30]"
+	$phongexponent 2
+	$phongboost 2
+
+	$ambientocclusion 1
+	$diffuseexp 1.5
+}
+}
