@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+$baseTexture "models\custom\freeman/eyeshadow_color"
+
+$halflambert 1
+$translucent 1
+
+$nodecal 1
+
+}

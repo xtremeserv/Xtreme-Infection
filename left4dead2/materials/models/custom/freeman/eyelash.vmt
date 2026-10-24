@@ -1,0 +1,21 @@
+VertexLitGeneric
+{
+$baseTexture "models\custom\freeman/hair_detail_color"
+$bumpmap "models\survivors\gordon\hair_detail_normal"
+
+$halflambert 1
+$translucent 1
+
+$nodecal 1
+
+$phong 1
+$phongboost "1.4"
+$phongexponent 7
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[.2 .5 5]"
+$nodecal 1
+$ambientocclusion 1
+$halflambert 0
+$diffuseexp "1.5"
+
+}

@@ -1,0 +1,24 @@
+patch
+{
+
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+	$basetexture "models/custom/freeman/health_charger_glass_color"
+                $bumpmap "effects/flat_normal"
+
+	$envmap "env_cubemap"
+
+$nodecal 1
+
+	$phong 1
+	$phongfresnelranges "[0.4 0.8 30]"
+	$phongexponent 2
+	$phongboost 2
+
+                $translucent 1
+
+	$ambientocclusion 1
+	$diffuseexp 1.5
+}
+}
