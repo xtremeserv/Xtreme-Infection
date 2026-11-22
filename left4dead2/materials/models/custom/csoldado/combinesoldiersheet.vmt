@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$bumpmap" "models\custom\csoldado\combinesoldier_normal"
+	"$surfaceprop" "flesh"
+	"$selfillum" 1
+	"$model" 1
+	"$phong" 1
+	"$phongboost" "5"
+	"$halflambert" "1"
+	"$phongexponenttexture" "models\custom\csoldado\combinesoldier_phong"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges"	"[.1 .5 1.0]"
+
+	// Use separate self-illum mask on Pre DX9 hardware
+	">=dx90_20b"
+	{
+		"$baseTexture" 		"models\custom\csoldado\combinesoldier_noalpha"
+		"$selfillummask" 	"models\custom\csoldado\combinesoldierselfillummask"
+	}
+
+	// Use redundant self-illum in base alpha on Pre DX9 hardware
+	"<dx90_20b"
+	{
+		"$baseTexture" 	"models\custom\csoldado\combinesoldiersheet"
+	}
+}

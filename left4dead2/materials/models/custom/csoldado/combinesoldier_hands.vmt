@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+	$baseTexture "models\custom\csoldado\combinesoldier_hands"
+	$bumpmap "models\custom\csoldado\combinesoldier_hands_n"
+	$phong 1
+	$phongboost ".4"
+	$phongexponent 5
+	$phongtint "[.85 .85 1]"
+	$halflambert 0
+	$phongfresnelranges "[.3 .65 30]"
+	$ambientocclusion 1
+
+
+	$diffuseexp "1.5"
+}
