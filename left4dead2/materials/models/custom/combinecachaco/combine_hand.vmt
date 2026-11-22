@@ -1,0 +1,34 @@
+"vertexlitgeneric"
+{
+
+	"$baseTexture" "models/custom/combinecachaco/combine_hand"
+    "$bumpmap" 	   "models/custom/combinecachaco/ct_urban_normal"
+	"$nodecal" "1"
+	
+	"$phong" "1"
+	"$phongexponent" 	"0"
+	"$phongboost"	"5"
+	"$phongfresnelranges"	"[0 0.2 1]"
+	
+		$detail "models\survivors\survivor_it.vtf"
+	$detailscale 3
+	$detailblendfactor ".001" 
+	$detailblendmode 0
+	$ITAmount 0
+
+	"proxies"
+	{
+		IT
+		{
+			resultVar $ITAmount
+		}
+		Equals
+		{
+			srcVar1 $ITAmount
+			resultVar $detailblendfactor
+		}
+	}
+
+	
+}
+

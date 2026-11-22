@@ -1,0 +1,30 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\custom\combinecachaco\gsaaa"	
+	 "$bumpmap" "models/custom/combinecachaco\gsaaa_n"
+	 "$nodecal" "1"
+	"$normalmapalphaenvmapmask" "1"
+ 	"$phong" "1"
+	"$phongexponent" "94.8"
+	"$phongboost"	"0.35"
+	"$phongfresnelranges"	"[.1 .1 1]"
+	
+		$detail "models\survivors\survivor_it.vtf"
+	$detailscale 3
+	$detailblendfactor ".001" 
+	$detailblendmode 0
+	$ITAmount 0
+
+	"proxies"
+	{
+		IT
+		{
+			resultVar $ITAmount
+		}
+		Equals
+		{
+			srcVar1 $ITAmount
+			resultVar $detailblendfactor
+		}
+	}
+}
